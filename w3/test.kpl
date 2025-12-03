@@ -1,0 +1,18 @@
+Program TEST; (* TEST *)
+VAR
+  N,G: INTEGER;
+  X : INTERGER;
+  Y : INTERGER;
+  Z : INTERGER;
+Begin
+  N,X,Y := 10,20,30;
+  REPEAT 
+    X := X + 1;
+    Y := Y + 1;
+  UNTIL
+    X < Y;
+  WHILE
+    X < Y
+  DO
+    X:= Y;
+End. (* TEST *)
