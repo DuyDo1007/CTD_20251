@@ -1,0 +1,16 @@
+PROGRAM program1;
+
+VAR
+  a : INTEGER;
+  b : INTEGER;
+
+BEGIN
+  a := 10;
+  b := 11;
+  call writei(a + b);
+  call writeln;
+  call writei(a - b);
+  call writeln;
+  call writei(a * b);
+  call writeln;
+END.
